@@ -1,0 +1,124 @@
+footer{
+    background-color: aqua;
+}
+
+.titulo-footer{
+    font-size: 36px;
+    margin-left: 75px;
+}
+
+.entregas{
+    display: flex;
+    margin: 50px 200px;
+    text-align: center;
+}
+
+.entregas-info{
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin:  10px 20px;
+}
+
+.entrgas-titulo{
+    font-size: 24px;
+}
+
+.entregas-texto{
+    font-size:16px ;
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-top: 2px solid #ccc; /* Línea superior */
+    border-bottom: 2px solid #ccc; /* Línea inferior */
+    padding: 20px; /* Espacio interno */
+}
+
+.footer-correo{
+    margin-left: 280px;
+}
+
+.descuento{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.correo{
+    margin: 10px 20px;
+}
+
+.correo-cuadro{
+    width: 300px;
+}
+
+.correo-cuadro[type="email"]{
+    text-align: center;
+}
+
+.footer-logos{
+    margin-right: 350px;
+}
+
+.logo-final{
+    margin-left: 800px;
+}
+
+/* Estilos Responsive para pantallas móviles */
+@media (max-width: 768px) {
+    .titulo-footer {
+        font-size: 24px; /* Reducir el tamaño de la fuente */
+        margin-left: 20px; /* Ajustar el margen */
+    }
+
+    .entregas {
+        flex-direction: column; /* Cambiar de fila a columna */
+        margin: 20px 10px; /* Reducir márgenes */
+    }
+
+    .entregas-info {
+        margin: 10px 0; /* Quitar márgenes laterales */
+    }
+
+    .entrgas-titulo {
+        font-size: 18px; /* Reducir tamaño de fuente */
+    }
+
+    .entregas-texto {
+        font-size: 14px; /* Reducir tamaño de fuente */
+    }
+
+    .footer {
+        flex-direction: column; /* Cambiar de fila a columna */
+        height: auto;
+        padding: 10px; /* Ajustar el padding */
+    }
+
+    .footer-correo {
+        margin-left: 0;
+        text-align: center; /* Centrar el correo en móviles */
+    }
+
+    .footer-logos {
+        margin-right: 0;
+        text-align: center; /* Centrar los logos */
+    }
+
+    .logo-final {
+        margin-left: 0; /* Eliminar margen excesivo */
+        margin-top: 20px; /* Añadir margen superior */
+        text-align: center;
+    }
+
+    .correo-cuadro {
+        width: 100%; /* Hacer el cuadro de correo ocupar todo el ancho */
+    }
+
+    .descuento {
+        font-size: 18px; /* Reducir el tamaño de la fuente */
+        text-align: center; /* Centrar el texto */
+    }
+}
